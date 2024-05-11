@@ -1,0 +1,13 @@
+datahub:
+  token:
+  url: 'https://localhost:9002'
+  pollBatchCount: '10000'
+  query: '*urn\:li\:dataPlatform\:trino*'
+
+ranger:
+  url: 'http://localhost:6080'
+  user: 'admin'
+  password:
+
+datahubRangerServiceMapping:
+  trino: 'primary_trino'
